@@ -1,0 +1,99 @@
+body {
+  margin: 0;
+  font-family: Arial, serif;
+}
+
+.header {
+  padding-left: 100px;
+  display: flex;
+  height: 70px;
+  justify-content: left;
+  align-items: center;
+  gap: 2em;
+  border-bottom: 1px solid lightgray;
+}
+
+.header img {
+  width: 50px;
+  height: 50px;
+}
+
+.header span {
+  font-size: 20px;
+}
+
+.courses {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2em;
+}
+
+.course {
+  padding: 20px;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  width: 400px;
+  height: 300px;
+}
+
+.courseHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 40px;
+}
+
+.courseName {
+  font-size: 20px;
+}
+
+.new {
+  font-size: 20px;
+  font-weight: bold;
+  background-color: lightgray;
+  width: 60px;
+  height: 30px;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.invisible {
+  display: none;
+}
+
+.law {
+  font-size: 40px;
+}
+
+.text {
+  font-size: 20px;
+  color: gray;
+}
+
+.button {
+  width: 100px;
+  height: 50px;
+  background-color: white;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+}
+
+.speaker {
+  margin-top: 10px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+.speaker span {
+  font-size: 20px;
+}
+
+.speaker img {
+  width: 50px;
+}
